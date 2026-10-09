@@ -10,104 +10,106 @@
 # 一、全局关键字匹配（Tracker 关键字）
 # ------------------------------------------------------------------------------
 DOMAIN-KEYWORD,tracker
-DOMAIN-KEYWORD,announce
-DOMAIN-KEYWORD,torrent
+域名-关键词，announce
+域名-关键词，torrent
 # 其他关键字
-DOMAIN-KEYWORD,yusen
+域名-关键词，yusen
 
 # ==============================================================================
 # 二、顶级 / 老牌 / 大中型综合 PT 站点
 # ==============================================================================
 
-# M-Team (馒头)
-DOMAIN-SUFFIX,m-team.io
-DOMAIN-SUFFIX,m-team.cc
-DOMAIN-KEYWORD,m-team
+# M-Team（馒头）
+域名后缀，m-team.io
+域名后缀，m-team.cc
+域名-关键词,m-team
 
-# HDSky (天空)
-DOMAIN-SUFFIX,hdsky.me
-DOMAIN-SUFFIX,hdsky.my
-DOMAIN-KEYWORD,hdsky
+# HDSky（天空）
+域名后缀,hdsky.me
+域名后缀,hdsky.my
+域名-关键词,hdsky
 
-# CHD (彩虹岛)
-DOMAIN-SUFFIX,chdbits.xyz
+# CHD（彩虹岛）
+域名后缀,chdbits.xyz
 DOMAIN-SUFFIX,chdbits.co
-DOMAIN-SUFFIX,ptchdbits.co
-DOMAIN,tracker.rainbowisland.co
-DOMAIN-KEYWORD,chdbits
-DOMAIN-KEYWORD,ptchdbits
+域名后缀,ptchdbits.co
+域名，tracker.rainbowisland.co
+域名-关键词，chdbits
+域名-关键词，ptchdbits
 
-# Audiences (观众)
-DOMAIN-SUFFIX,audiences.me
-DOMAIN-SUFFIX,cinefiles.info
-DOMAIN-KEYWORD,audiences
+# 观众
+域名后缀，audiences.me
+域名后缀，cinefiles.info
+域名-关键词，audiences
 
-# HHAnClub (憨憨)
+# HHAnClub（憨憨）
 DOMAIN-SUFFIX,hhanclub.net
 DOMAIN-SUFFIX,hhanclub.top
 DOMAIN,tracker.hhanclub.net
-DOMAIN-KEYWORD,hhanclub
+域名-关键词,hhanclub
 
-# Ourbits (我堡)
+# Ourbits（我堡）
 DOMAIN-SUFFIX,ourbits.club
 DOMAIN-KEYWORD,ourbits
 
-# TTG (听听歌)
+# TTG（听听歌）
 DOMAIN-SUFFIX,totheglory.im
 DOMAIN-KEYWORD,totheglory
 
-# PterClub (猫站)
+# PterClub（猫站）
 DOMAIN-SUFFIX,pterclub.net
 DOMAIN-SUFFIX,pterclub.com
 DOMAIN-KEYWORD,pterclub
 
-# SSD (春天)
+# SSD（春天）
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-KEYWORD,springsunday
 
-# HDHome (家园)
+# HDHome（家园）
 DOMAIN-SUFFIX,hdhome.org
 DOMAIN-KEYWORD,hdhome
 
-# KeepFRDS (朋友)
+# KeepFRDS（朋友）
 DOMAIN-SUFFIX,keepfrds.com
 DOMAIN-KEYWORD,keepfrds
 
-# OpenCD (皇后/华语无损音乐)
+# OpenCD（皇后/华语无损音乐）
 DOMAIN-SUFFIX,opencd.org
 DOMAIN-SUFFIX,open.cd
 DOMAIN-KEYWORD,opencd
 
+# 其他
+域名-关键词，rousi.pro
 # ==============================================================================
 # 三、垂直及主流中型站点
 # ==============================================================================
 
-# UBits (U堡)
+# UBits（U堡）
 DOMAIN-SUFFIX,ubits.club
 DOMAIN-KEYWORD,ubits
 
-# SunnyPT (阳光)
+# SunnyPT（阳光）
 DOMAIN-SUFFIX,sunnypt.top
 DOMAIN-KEYWORD,sunnypt
 
-# PTTime (PT时间)
+# PTTime（PT时间）
 DOMAIN-SUFFIX,pttime.org
 DOMAIN-KEYWORD,pttime
 
-# HDTime (时光)
+# HDTime（时光）
 DOMAIN-SUFFIX,hdtime.org
 DOMAIN-KEYWORD,hdtime
 
-# HDArea (好大)
+# HDArea（好大）
 DOMAIN-SUFFIX,hdarea.club
 DOMAIN-SUFFIX,hdarea.co
 DOMAIN-KEYWORD,hdarea
 
-# HDFans (红豆饭)
+# HDFans（红豆饭）
 DOMAIN-SUFFIX,hdfans.org
 DOMAIN-KEYWORD,hdfans
 
-# HDDolby (杜比)
+# HDDolby（杜比）
 DOMAIN-SUFFIX,hddolby.com
 DOMAIN-KEYWORD,hddolby
 
