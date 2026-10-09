@@ -1,17 +1,17 @@
 # ==========================================
-# 代理补充列表 (Proxy Custom Rules)
+# 代理补充列表（Proxy Custom Rules）
 # ==========================================
 
 # ------------------------------------------
-# 1. PT 站相关域名，域名走代理，Tracker另行设置走直连 (精准匹配)
+# 1. PT站相关域名，域名走代理，Tracker另行设置走直连（精准匹配）
 # ------------------------------------------
-# BYR PT (北邮人PT，网页无教育网需国外IPV6访问，tracker已单独设置走直连)
-DOMAIN,byr.pt
+# BYR PT（北邮人PT，网页无教育网需国外IPV6访问，tracker已单独设置走直连）
+域名，byr.pt
 # 我的PT PT
-DOMAIN,cc.mypt.cc
-DOMAIN,pt.mypt.cc
+域名，cc.mypt.cc
+域名，pt.mypt.cc
 # 星陨阁 PT
-DOMAIN,pt.xingyungept.org
+域名，pt.xingyungept.org
 
 # ------------------------------------------
 # 2. 影视配套工具及开发资源 (后缀匹配)
@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,wiki.movie-pilot.org
 DOMAIN-SUFFIX,gitbook.io
 # Greasy Fork 用户脚本平台
 DOMAIN-SUFFIX,greasyfork.org
-# PyPI (Python 包索引，MoviePilot 及其插件依赖)
+# PyPI（Python 包索引，MoviePilot 及其插件依赖）
 DOMAIN-SUFFIX,pypi.org
 
 # ------------------------------------------
@@ -48,7 +48,7 @@ DOMAIN-SUFFIX,re0.me
 # ------------------------------------------
 # TMDB 核心 API 与网页
 DOMAIN-KEYWORD,tmdb
-DOMAIN-KEYWORD,themoviedb
+域名-关键词，themoviedb
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,themoviedb.org
 # TMDB 最新 Bunny.net 图片 CDN (2025/2026 必加)
