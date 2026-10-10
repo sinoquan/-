@@ -1,15 +1,14 @@
 # ==============================================================================
-# PT 站点 / Tracker 直连规则 —— 整理版
+# PT 站点 / 追踪器 直连规则 —— 整理版
 # 来源：原始文件「新建 文本文档.txt」整理（251 行规则 → 去重后 225 条唯一规则）
-# 用途：Clash / Surge 等代理规则，将 PT 站点域名及 Tracker 关键字强制「直连(DIRECT)」
-#       防止下载软件因 Tracker 走代理而被站点封号
+# 用途：Clash / Surge 等代理规则，将 PT 站点域名及 追踪器 关键字强制「直连(DIRECT)」
+#       防止下载软件因 追踪器 走代理而被站点封号
 # 整理日期：2026-10-09
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
-# 一、全局关键字匹配（Tracker 关键字）
+# 一、全局关键字匹配（追踪器 关键字）
 # ------------------------------------------------------------------------------
-DOMAIN-KEYWORD,tracker
 域名-关键词，announce
 域名-关键词，torrent
 # 其他关键字
@@ -33,7 +32,6 @@ DOMAIN-KEYWORD,tracker
 域名后缀,chdbits.xyz
 DOMAIN-SUFFIX,chdbits.co
 域名后缀,ptchdbits.co
-域名，tracker.rainbowisland.co
 域名-关键词，chdbits
 域名-关键词，ptchdbits
 
@@ -45,7 +43,6 @@ DOMAIN-SUFFIX,chdbits.co
 # HHAnClub（憨憨）
 DOMAIN-SUFFIX,hhanclub.net
 DOMAIN-SUFFIX,hhanclub.top
-DOMAIN,tracker.hhanclub.net
 域名-关键词,hhanclub
 
 # Ourbits（我堡）
@@ -76,7 +73,7 @@ DOMAIN-KEYWORD,keepfrds
 # OpenCD（皇后/华语无损音乐）
 DOMAIN-SUFFIX,opencd.org
 DOMAIN-SUFFIX,open.cd
-DOMAIN-KEYWORD,opencd
+域名-关键词,opencd
 
 # 其他
 DOMAIN-SUFFIX,rousi.pro
@@ -118,31 +115,30 @@ DOMAIN-KEYWORD,hddolby
 DOMAIN-SUFFIX,agsvpt.com
 DOMAIN-SUFFIX,agsvpt.cn
 DOMAIN-SUFFIX,agsvpt.work
-DOMAIN-SUFFIX,trackers.work
 DOMAIN-KEYWORD,agsvpt
 
-# HDVideo (高清视频)
+# HDVideo（高清视频）
 DOMAIN-SUFFIX,hdvideo.top
 DOMAIN-KEYWORD,hdvideo
 
-# PandaPT (熊猫)
+# PandaPT（熊猫）
 DOMAIN-SUFFIX,pandapt.net
 DOMAIN-KEYWORD,pandapt
 
-# ZMPT (织梦)
+# ZMPT（织梦）
 DOMAIN-SUFFIX,zmpt.cc
 DOMAIN-SUFFIX,zmpt.club
 DOMAIN-KEYWORD,zmpt
 
-# PTSBao (骚包)
+# PTSBao（骚包）
 DOMAIN-SUFFIX,ptsbao.club
 DOMAIN-KEYWORD,ptsbao
 
-# PTHome (铂金家)
+# PTHome（铂金家）
 DOMAIN-SUFFIX,pthome.net
 DOMAIN-KEYWORD,pthome
 
-# Qingwa (青蛙)
+# Qingwa（青蛙）
 DOMAIN-SUFFIX,qingwa.pro
 DOMAIN-SUFFIX,qingwa.com
 DOMAIN-SUFFIX,qingwapt.com
@@ -150,22 +146,22 @@ DOMAIN-SUFFIX,qingwapt.pro
 DOMAIN-KEYWORD,qingwa
 DOMAIN-KEYWORD,qingwapt
 
-# HDCity (城市)
+# HDCity（城市）
 DOMAIN-SUFFIX,hdcity.city
 
-# PTZone (空间)
+# PTZone（空间）
 DOMAIN-SUFFIX,ptzone.xyz
 DOMAIN-KEYWORD,ptzone
 
-# BTSchool (学校)
+# BTSchool（学校）
 DOMAIN-SUFFIX,btschool.club
 DOMAIN-KEYWORD,btschool
 
-# HDRoute (思路)
+# HDRoute（思路）
 DOMAIN-SUFFIX,hdroute.org
 DOMAIN-KEYWORD,hdroute
 
-# 52pt (我爱PT)
+# 52pt（我爱PT）
 DOMAIN-SUFFIX,52pt.site
 DOMAIN-KEYWORD,52pt
 
@@ -173,31 +169,31 @@ DOMAIN-KEYWORD,52pt
 # 四、垂直特色站（动漫 / 音乐 / 汽车 / 港片 / 书籍 / 有声等）
 # ==============================================================================
 
-# U2 (幼儿园)
+# U2（幼儿园）
 DOMAIN-SUFFIX,u2.dmhy.org
-DOMAIN-KEYWORD,dmhy
+域名-关键词,dmhy
 
-# xloli (萝莉)
+# xloli（萝莉）
 DOMAIN-SUFFIX,xloli.cc
-DOMAIN-SUFFIX,x-anime.cc
+域名后缀,x-anime.cc
 
-# DiscFan (碟粉/港知堂/老港片顶流)
+# DiscFan（碟粉/港知堂/老港片顶流）
 DOMAIN-SUFFIX,discfan.net
 DOMAIN-KEYWORD,discfan
 
-# DICMusic (海豚/音乐大站)
+# DICMusic（海豚/音乐大站）
 DOMAIN-SUFFIX,dicmusic.club
 DOMAIN-KEYWORD,dicmusic
 
-# soulvoice (铃音)
+# soulvoice（铃音）
 DOMAIN-SUFFIX,pt.soulvoice.club
 DOMAIN-SUFFIX,soulvoice.club
-DOMAIN-KEYWORD,soulvoice
+DOMAIN-KEYWORD,灵魂之声
 
-# Si-Qi (思齐)
+# 思齐
 DOMAIN-SUFFIX,si-qi.xyz
 
-# CarPT (车站)
+# 车站
 DOMAIN-SUFFIX,carpt.net
 DOMAIN-KEYWORD,carpt
 
@@ -228,34 +224,33 @@ DOMAIN-KEYWORD,ultrahd
 DOMAIN-SUFFIX,zhuque.in
 DOMAIN-KEYWORD,zhuque
 
-# HaiDan (海胆)
-DOMAIN-SUFFIX,haidan.cc
-DOMAIN-KEYWORD,haidan
+# 海胆
+域名后缀,haidan.cc
+域名关键词,haidan
 
-# OshenPT (奥神)
-DOMAIN-SUFFIX,oshen.win
-DOMAIN-KEYWORD,oshen
+# 奥神
+域名后缀,oshen.win
+域名关键词,oshen
 
-# YeMaPT (野马)
+# 野马
 DOMAIN-SUFFIX,yemapt.org
 DOMAIN-KEYWORD,yemapt
 
-# CrabPT (蟹黄堡)
+# CrabPT（蟹黄堡）
 DOMAIN-SUFFIX,crabpt.vip
 DOMAIN-KEYWORD,crabpt
 
-# KuFei (库非)
+# KuFei（库非）
 DOMAIN-SUFFIX,kufei.org
 DOMAIN-KEYWORD,kufei
 
-# PTLGS (PT劳改所)
+# PTLGS（PT劳改所）
 DOMAIN-SUFFIX,ptlgs.org
 DOMAIN-SUFFIX,ptl.gs
 
-# XingYunGe (星陨阁)
-DOMAIN,tracker.xingyungept.org
+# XingYunGe（星陨阁）
 
-# HDBao (红豆包)
+# HDBao（红豆包）
 DOMAIN-SUFFIX,hdbao.cc
 DOMAIN-KEYWORD,hdbao
 
@@ -267,7 +262,7 @@ DOMAIN-KEYWORD,dstudio
 DOMAIN-SUFFIX,novahd.top
 DOMAIN-KEYWORD,novahd
 
-# PT.0ff (自由农场)
+# PT.0ff（自由农场）
 DOMAIN-SUFFIX,pt.0ff.cc
 
 # ==============================================================================
@@ -275,9 +270,9 @@ DOMAIN-SUFFIX,pt.0ff.cc
 # ==============================================================================
 
 # BYR (北邮人，访问域名非教育网需单独走代理)
-DOMAIN,tracker.byr.pt
-DOMAIN-SUFFIX,bt.byr.cn
-DOMAIN-SUFFIX,byr.pt
+域名,追踪器.byr.pt
+域名后缀,bt.byr.cn
+域名后缀，byr.pt
 
 # TJUPT (北洋)
 DOMAIN-SUFFIX,tjupt.org
