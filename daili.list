@@ -42,6 +42,8 @@ DOMAIN-SUFFIX,一元机场.asia
 DOMAIN-SUFFIX,m.dian115.com
 # 影巢
 DOMAIN-SUFFIX,re0.me
+# 牛逼GPT
+DOMAIN-SUFFIX,nbzzz.lol
 
 # ------------------------------------------
 # 5. TMDB 媒体刮削及图片 CDN (精准与后缀匹配)
